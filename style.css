@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "coldiac_freeitalic";
+  src: url("font/coldiac_italic-webfont.woff2") format("woff2"),
+    url("font/coldiac_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.maphoto {
+  font-family: "coldiac_freeitalic";
+  width: 200px;
+  border-image-repeat: round;
+  border-image-width: 20px;
+  border-radius: 60%;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  color: #101010;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nom {
+  color: #101010;
+}
+
+.bloc1 {
+  margin-left: 30px;
+  padding-left: 15px;
+  width: 60%;
+  margin-left: 5%;
+}
+.bloc1 h2 {
+  color: rgb(207, 12, 103);
+}
+
+.simplon-backend h4,
+.simplon-frontend h4 {
+  color: rgb(207, 12, 103);
+  padding-left: 15px;
+}
+
+.bloc2 {
+  background-color: #101010;
+  color: rgb(212, 204, 188);
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 30%;
+}
+
+.bloc2 h2 {
+  color: wheat;
+}
+
+.bloc2 p {
+  color: rgb(212, 204, 188);
+}
+
+h1,
+.entreprise,
+.certification {
+  color: rgb(207, 12, 103);
+}
+
+.bloc2 h3 {
+  color: rgb(207, 12, 103);
+}
