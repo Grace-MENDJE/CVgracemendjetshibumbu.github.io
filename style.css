@@ -18,9 +18,8 @@
 .container {
   display: flex;
   color: #101010;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 98%;
+  margin-left: 2%;
 }
 
 .nom {
@@ -28,7 +27,6 @@
 }
 
 .bloc1 {
-  margin-left: 30px;
   padding-left: 15px;
   width: 60%;
   margin-left: 5%;
@@ -44,11 +42,11 @@
 }
 
 .bloc2 {
-  background-color: #101010;
+  background-color: #262626;
   color: rgb(212, 204, 188);
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 26%;
 }
 
 .bloc2 h2 {
@@ -59,6 +57,11 @@
   color: rgb(212, 204, 188);
 }
 
+.bloc2 a {
+  color: rgb(212, 204, 188);
+  text-decoration: none;
+}
+
 h1,
 .entreprise,
 .certification {
@@ -67,4 +70,77 @@ h1,
 
 .bloc2 h3 {
   color: rgb(207, 12, 103);
+}
+
+@media screen and (max-width: 400px) {
+  .maphoto {
+    width: 80px;
+    height: 80px;
+  }
+
+  .bloc1 {
+    font-size: 0.5rem;
+  }
+
+  .bloc2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.5rem;
+  }
+}
+/* @media screen and (min-width: 481px) and (max-width: 1099px) */
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .maphoto {
+    width: 120px;
+    height: 120px;
+  }
+
+  .container {
+    font-size: 0.8rem;
+  }
+
+  .bloc2 {
+    width: 40%;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 747px) {
+  .container {
+    font-size: 0.9rem;
+  }
+
+  .maphoto {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    font-size: 1rem;
+  }
+  .maphoto {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  .maphoto {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    font-size: 1.5rem;
+  }
 }
